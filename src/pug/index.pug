@@ -333,23 +333,7 @@ footer.footer.py-4
         a.link-dark.text-decoration-none(href='#!') Terms of Use
 // Portfolio Modals
 // Portfolio item 1 modal popup
-#portfolioModal1.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
-  .modal-dialog
-    .modal-content
-      .close-modal(data-bs-dismiss='modal')
-        img(src='assets/img/close-icon.svg' alt='Close modal')
-      .container
-        .row.justify-content-center
-          .col-lg-8
-            .modal-body
-              // Project details
-              h2.text-uppercase Leadership Development for Customer Success 
-              img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/1.jpeg' alt='...')
-              p
-                | Equip executives and managers with the skills to lead high-performing customer success teams, drive customer retention, and foster a customer-first culture.
-              button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
-                i.fas.fa-xmark.me-1
-                |                                         Close
+include includes/portfolio-modal-1
 // Portfolio item 2 modal popup
 #portfolioModal2.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
   .modal-dialog
