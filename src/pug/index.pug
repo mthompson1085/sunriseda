@@ -50,29 +50,34 @@ section#services.page-section
         span.fa-stack.fa-4x
           i.fas.fa-circle.fa-stack-2x.text-primary
           i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-        h4.my-3 Executive Coaching
+        h4.my-3 Organizational Development, Leadership Development, and Customer Success
         p.text-muted
-          | Empowering customer success leaders with executive coaching to drive strategic growth, leadership excellence, and customer-centric innovation
+          | We offer coaching services designed to empower individuals and teams across various industries. Our primary focus is on Organizational Development, Leadership Development, and Customer Success, helping professionals and businesses cultivate strong, high-performing teams, enhance strategic decision-making, build customer-centric strategies, and drive sustainable growth
       .col-md-4
         span.fa-stack.fa-4x
           i.fas.fa-circle.fa-stack-2x.text-primary
           i.fas.fa-laptop.fa-stack-1x.fa-inverse
         h4.my-3 Process Development
+        br
+        br
         p.text-muted
-          | Optimizing customer success through tailored process development, ensuring efficiency, scalability, and seamless customer experiences
+          | Our coaching services support professionals in career growth, operational excellence, change management, and team dynamics. Whether you&rsquo;re looking to refine your leadership approach, optimize team performance, or navigate business challenges, we provide tailored coaching solutions to meet your needs.
       .col-md-4
         span.fa-stack.fa-4x
           i.fas.fa-circle.fa-stack-2x.text-primary
           i.fas.fa-lock.fa-stack-1x.fa-inverse
-        h4.my-3 Data Services
+        h4.my-3 1:1 Coaching and Workshops
+        br
+        br
         p.text-muted
-          | Defining and tracking key customer success KPIs to measure impact, drive retention, and accelerate business growth.
+          | We offer 1:1 coaching, group coaching, and workshops to ensure flexible and impactful learning experiences. Whether you prefer personalized guidance, collaborative group discussions, or interactive workshops, we tailor our approach to help you and your organization succeed.
 // Portfolio Grid
-section#process.page-section.bg-light
+section#portfolio.page-section.bg-light
   .container
     .text-center
       h2.section-heading.text-uppercase Our Process
-      h3.section-subheading.text-muted How We Acomplish Great Things
+      h3.section-subheading.text-muted
+        | We take a structured and strategic approach to coaching, providing actionable insights and customized frameworks to help individuals and organizations excel.
     .row
       .col-lg-4.col-sm-6.mb-4
         // Portfolio item 1
@@ -83,7 +88,8 @@ section#process.page-section.bg-light
                 i.fas.fa-plus.fa-3x
             img.img-fluid(src='assets/img/portfolio/1.jpeg' alt='...')
           .portfolio-caption
-            .portfolio-caption-heading Leadership Development for Customer Success
+            .portfolio-caption-heading Organizational Development &amp; Leadership Development
+            .portfolio-caption-subheading.text-muted Empowering Teams, Elevating Leaders, Driving Success
       .col-lg-4.col-sm-6.mb-4
         // Portfolio item 2
         .portfolio-item
@@ -93,7 +99,8 @@ section#process.page-section.bg-light
                 i.fas.fa-plus.fa-3x
             img.img-fluid(src='assets/img/portfolio/2.jpeg' alt='...')
           .portfolio-caption
-            .portfolio-caption-heading Strategic Customer Success Planning
+            .portfolio-caption-heading Customer Success Strategy &amp; Execution
+            .portfolio-caption-subheading.text-muted Optimizing Customer Journeys for Growth and Retention
       .col-lg-4.col-sm-6.mb-4
         // Portfolio item 3
         .portfolio-item
@@ -103,37 +110,57 @@ section#process.page-section.bg-light
                 i.fas.fa-plus.fa-3x
             img.img-fluid(src='assets/img/portfolio/3.jpeg' alt='...')
           .portfolio-caption
-            .portfolio-caption-heading Customer Journey Mapping &amp; Optimization
+            .portfolio-caption-heading  1:1 Coaching, Group Coaching, and Workshops 
+            .portfolio-caption-subheading.text-muted Personalized Guidance, Collaborative Growth, and Transformative Learning
       .col-lg-4.col-sm-6.mb-4.mb-lg-0
         // Portfolio item 4
-        .portfolio-item
-          a.portfolio-link(data-bs-toggle='modal' href='#portfolioModal4')
-            .portfolio-hover
-              .portfolio-hover-content
-                i.fas.fa-plus.fa-3x
-            img.img-fluid(src='assets/img/portfolio/4.jpg' alt='...')
-          .portfolio-caption
-            .portfolio-caption-heading Scalable Customer Success Playbooks
-      .col-lg-4.col-sm-6.mb-4.mb-sm-0
+        //
+          <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+          <div class="portfolio-hover">
+          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+          </div>
+          <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+          <div class="portfolio-caption-heading">Lines</div>
+          <div class="portfolio-caption-subheading text-muted">Branding</div>
+          </div>
+          </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
         // Portfolio item 5
-        .portfolio-item
-          a.portfolio-link(data-bs-toggle='modal' href='#portfolioModal5')
-            .portfolio-hover
-              .portfolio-hover-content
-                i.fas.fa-plus.fa-3x
-            img.img-fluid(src='assets/img/portfolio/5.jpg' alt='...')
-          .portfolio-caption
-            .portfolio-caption-heading Customer Health Scoring &amp; Metrics Design
-      .col-lg-4.col-sm-6
+        //
+          <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+          <div class="portfolio-hover">
+          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+          </div>
+          <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+          <div class="portfolio-caption-heading">Southwest</div>
+          <div class="portfolio-caption-subheading text-muted">Website Design</div>
+          </div>
+          </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
         // Portfolio item 6
-        .portfolio-item
-          a.portfolio-link(data-bs-toggle='modal' href='#portfolioModal6')
-            .portfolio-hover
-              .portfolio-hover-content
-                i.fas.fa-plus.fa-3x
-            img.img-fluid(src='assets/img/portfolio/6.jpg' alt='...')
-          .portfolio-caption
-            .portfolio-caption-heading Performance Dashboards &amp; Reporting
+        //
+          <div class="portfolio-item">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+          <div class="portfolio-hover">
+          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+          </div>
+          <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+          </a>
+          <div class="portfolio-caption">
+          <div class="portfolio-caption-heading">Window</div>
+          <div class="portfolio-caption-subheading text-muted">Photography</div>
+          </div>
+          </div>
+          </div>
+          </div>
 // About
 section#about.page-section
   .container
@@ -141,11 +168,17 @@ section#about.page-section
       h2.section-heading.text-uppercase About Us
       h3.section-subheading.text-muted We Are Industry Leaders
     p
-      | At Sunrise Success, we are a team of seasoned industry leaders with decades of experience in customer success, dedicated to helping businesses build thriving, customer-centric organizations. After years of driving customer success at top companies, we recognized a powerful opportunity&mdash;our expertise could make an even greater impact by coaching and empowering others. That realization led to the creation of Sunrise Success, a consulting firm focused on equipping businesses with the strategies, processes, and leadership skills needed to drive retention, revenue growth, and long-term success.
+      | At 
+      b Sunrise Success
+      | , we are a team of seasoned professionals with decades of experience in leadership, operations, and organizational development. We are dedicated to helping businesses build high-performing teams, streamline processes, and drive sustainable growth. After years of leading transformation and operational success at top companies, we recognized an opportunity to amplify our impact&mdash;by coaching and empowering others. That realization led to the creation of 
+      b Sunrise Success
+      | , a consulting firm focused on equipping businesses with the strategies, leadership skills, and operational frameworks needed to achieve long-term success.
     p
-      | We believe that customer success is more than just a department&mdash;it&apos;s a philosophy that, when executed effectively, fuels business growth and strengthens customer relationships. Our hands-on approach ensures that companies not only adopt best practices but also develop scalable frameworks tailored to their unique needs. Whether it&rsquo;s executive coaching for CS leaders, optimizing customer engagement processes, or defining key performance metrics, we provide the guidance and tools necessary to build high-impact customer success teams.
+      | We believe that success isn&rsquo;t just about one department&mdash;it&rsquo;s a mindset that, when executed effectively, fuels business growth, enhances team performance, and strengthens organizational resilience. Our hands-on approach ensures that companies not only adopt best practices but also develop scalable frameworks tailored to their unique challenges. Whether it&rsquo;s executive coaching for leaders and teams, optimizing operations, enhancing employee engagement, or defining key performance metrics, we provide the guidance and tools necessary to build a thriving organization.
     p
-      | At Sunrise Success, we don&rsquo;t just consult&mdash;we coach, collaborate, and help you implement sustainable strategies that create lasting results. Our passion lies in helping businesses transform their customer success efforts into a competitive advantage. Let&rsquo;s work together to elevate your customer success strategy and drive meaningful growth.
+      | At 
+      b Sunrise Success
+      | , we don&rsquo;t just consult&mdash;we coach, collaborate, and develop teams to be high-performing and future-ready. Our passion lies in helping businesses turn leadership, strategy, and team development into a competitive advantage. Let&rsquo;s work together to elevate your company&rsquo;s investment in its people and drive meaningful growth
     //
       <ul class="timeline">
       <li>
@@ -200,236 +233,279 @@ section#about.page-section
       </div>
       </li>
       </ul>
-// Team
-section#team.page-section.bg-light
-  .container
-    .text-center
-      h2.section-heading.text-uppercase Our Leadership Team
-      h3.section-subheading.text-muted Let&apos;s Connect
-    .row
-      .col-lg-4
-        .team-member
-          img.mx-auto.rounded-circle(src='assets/img/team/1.jpg' alt='...')
-          h4 Devan
-          p.text-muted President
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Parveen Anand Twitter Profile')
-            i.fab.fa-twitter
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Parveen Anand Facebook Profile')
-            i.fab.fa-facebook-f
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Parveen Anand LinkedIn Profile')
-            i.fab.fa-linkedin-in
-      .col-lg-4
-        .team-member
-          img.mx-auto.rounded-circle(src='assets/img/team/2.jpg' alt='...')
-          h4 Amber
-          p.text-muted COO
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Diana Petersen Twitter Profile')
-            i.fab.fa-twitter
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Diana Petersen Facebook Profile')
-            i.fab.fa-facebook-f
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Diana Petersen LinkedIn Profile')
-            i.fab.fa-linkedin-in
-      .col-lg-4
-        .team-member
-          img.mx-auto.rounded-circle(src='assets/img/team/3.jpg' alt='...')
-          h4 Emma
-          p.text-muted Partner
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Larry Parker Twitter Profile')
-            i.fab.fa-twitter
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Larry Parker Facebook Profile')
-            i.fab.fa-facebook-f
-          a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Larry Parker LinkedIn Profile')
-            i.fab.fa-linkedin-in
-    .row
-      .col-lg-8.mx-auto.text-center
-        p.large.text-muted We would love to connect and learn more about how we can work together!
-//
-  Clients
-  <div class="py-5">
-  <div class="container">
-  <div class="row align-items-center">
-  <div class="col-md-3 col-sm-6 my-3">
-  <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-  </div>
-  <div class="col-md-3 col-sm-6 my-3">
-  <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-  </div>
-  <div class="col-md-3 col-sm-6 my-3">
-  <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-  </div>
-  <div class="col-md-3 col-sm-6 my-3">
-  <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
-  </div>
-  </div>
-  </div>
-  </div>
-// Contact
-section#contact.page-section
-  .container
-    .text-center
-      h2.section-heading.text-uppercase Contact Us
-      h3.section-subheading.text-muted Complete the form below and we will be in touch shortly 
-    // * * * * * * * * * * * * * * *
-    // * * SB Forms Contact Form * *
-    // * * * * * * * * * * * * * * *
-    // This form is pre-integrated with SB Forms.
-    // To make this form functional, sign up at
-    // https://startbootstrap.com/solution/contact-forms
-    // to get an API token!
-    form#contactForm(data-sb-form-api-token='API_TOKEN')
-      .row.align-items-stretch.mb-5
-        .col-md-6
-          .form-group
-            // Name input
-            input#name.form-control(type='text' placeholder='Your Name *' data-sb-validations='required')
-            .invalid-feedback(data-sb-feedback='name:required') A name is required.
-          .form-group
-            // Email address input
-            input#email.form-control(type='email' placeholder='Your Email *' data-sb-validations='required,email')
-            .invalid-feedback(data-sb-feedback='email:required') An email is required.
-            .invalid-feedback(data-sb-feedback='email:email') Email is not valid.
-          .form-group.mb-md-0
-            // Phone number input
-            input#phone.form-control(type='tel' placeholder='Your Phone *' data-sb-validations='required')
-            .invalid-feedback(data-sb-feedback='phone:required') A phone number is required.
-        .col-md-6
-          .form-group.form-group-textarea.mb-md-0
-            // Message input
-            textarea#message.form-control(placeholder='Your Message *' data-sb-validations='required')
-            .invalid-feedback(data-sb-feedback='message:required') A message is required.
-      // Submit success message
-      // 
-      // This is what your users will see when the form
-      // has successfully submitted
-      #submitSuccessMessage.d-none
-        .text-center.text-white.mb-3
-          .fw-bolder Form submission successful!
-          |                             To activate this form, sign up at
-          br
-          a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-      // Submit error message
-      // 
-      // This is what your users will see when there is
-      // an error submitting the form
-      #submitErrorMessage.d-none
-        .text-center.text-danger.mb-3 Error sending message!
-      // Submit Button
-      .text-center
-        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
-// Footer
-footer.footer.py-4
-  .container
-    .row.align-items-center
-      .col-lg-4.text-lg-start Copyright 2025 &copy; Sunrise Success LLC
-      .col-lg-4.my-3.my-lg-0
-        a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Twitter')
-          i.fab.fa-twitter
-        a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Facebook')
-          i.fab.fa-facebook-f
-        a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='LinkedIn')
-          i.fab.fa-linkedin-in
-      .col-lg-4.text-lg-end
-        a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
-        a.link-dark.text-decoration-none(href='#!') Terms of Use
-// Portfolio Modals
-// Portfolio item 1 modal popup
-include includes/portfolio-modal-1
-// Portfolio item 2 modal popup
-#portfolioModal2.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
-  .modal-dialog
-    .modal-content
-      .close-modal(data-bs-dismiss='modal')
-        img(src='assets/img/close-icon.svg' alt='Close modal')
+      </div>
+      </section>
+    // Team
+    section#team.page-section.bg-light
       .container
-        .row.justify-content-center
-          .col-lg-8
-            .modal-body
-              // Project details
-              h2.text-uppercase Strategic Customer Success Planning
-              img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/2.jpeg' alt='...')
-              p
-                | Provide one-on-one coaching to executives on building long-term customer success strategies that align with business goals and revenue growth.
-              button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
-                i.fas.fa-xmark.me-1
-                |                                         Close
-// Portfolio item 3 modal popup
-#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
-  .modal-dialog
-    .modal-content
-      .close-modal(data-bs-dismiss='modal')
-        img(src='assets/img/close-icon.svg' alt='Close modal')
+        .text-center
+          h2.section-heading.text-uppercase Our Leadership Team
+          h3.section-subheading.text-muted Let&apos;s Connect
+        .row
+          .col-lg-6
+            .team-member
+              img.mx-auto.rounded-circle(src='assets/img/team/1.jpg' alt='...')
+              h4 Devan
+              br
+              a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Parveen Anand Twitter Profile')
+                i.fab.fa-twitter
+              a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Parveen Anand Facebook Profile')
+                i.fab.fa-facebook-f
+              a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Parveen Anand LinkedIn Profile')
+                i.fab.fa-linkedin-in
+          .col-lg-6
+            .team-member
+              img.mx-auto.rounded-circle(src='assets/img/team/2.jpg' alt='...')
+              h4 Amber
+              br
+              a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Diana Petersen Twitter Profile')
+                i.fab.fa-twitter
+              a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Diana Petersen Facebook Profile')
+                i.fab.fa-facebook-f
+              a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Diana Petersen LinkedIn Profile')
+                i.fab.fa-linkedin-in
+          //
+            <div class="col-lg-4">
+            <div class="team-member">
+            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+            <h4>Emma</h4>
+            <p class="text-muted">Partner</p>
+            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            </div>
+            </div>
+          .row
+            .col-lg-8.mx-auto.text-center
+              p.large.text-muted We would love to connect and learn more about how we can work together!
+    //
+      Clients
+      <div class="py-5">
+      <div class="container">
+      <div class="row align-items-center">
+      <div class="col-md-3 col-sm-6 my-3">
+      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+      </div>
+      <div class="col-md-3 col-sm-6 my-3">
+      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+      </div>
+      <div class="col-md-3 col-sm-6 my-3">
+      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+      </div>
+      <div class="col-md-3 col-sm-6 my-3">
+      <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+      </div>
+      </div>
+      </div>
+      </div>
+    // Contact
+    section#contact.page-section
       .container
-        .row.justify-content-center
-          .col-lg-8
-            .modal-body
-              // Project details
-              h2.text-uppercase Customer Journey Mapping &amp; Optimization 
-              img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/3.jpeg' alt='...')
-              p
-                | Analyze and refine the customer journey, identifying pain points and opportunities to create a seamless and engaging experience.
-              button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
-                i.fas.fa-xmark.me-1
-                |                                         Close
-// Portfolio item 4 modal popup
-#portfolioModal4.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
-  .modal-dialog
-    .modal-content
-      .close-modal(data-bs-dismiss='modal')
-        img(src='assets/img/close-icon.svg' alt='Close modal')
+        .text-center
+          h2.section-heading.text-uppercase Contact Us
+          h3.section-subheading.text-muted Complete the form below and we will be in touch shortly 
+        // * * * * * * * * * * * * * * *
+        // * * SB Forms Contact Form * *
+        // * * * * * * * * * * * * * * *
+        // This form is pre-integrated with SB Forms.
+        // To make this form functional, sign up at
+        // https://startbootstrap.com/solution/contact-forms
+        // to get an API token!
+        form#contactForm(data-sb-form-api-token='API_TOKEN')
+          .row.align-items-stretch.mb-5
+            .col-md-6
+              .form-group
+                // Name input
+                input#name.form-control(type='text' placeholder='Your Name *' data-sb-validations='required')
+                .invalid-feedback(data-sb-feedback='name:required') A name is required.
+              .form-group
+                // Email address input
+                input#email.form-control(type='email' placeholder='Your Email *' data-sb-validations='required,email')
+                .invalid-feedback(data-sb-feedback='email:required') An email is required.
+                .invalid-feedback(data-sb-feedback='email:email') Email is not valid.
+              .form-group.mb-md-0
+                // Phone number input
+                input#phone.form-control(type='tel' placeholder='Your Phone *' data-sb-validations='required')
+                .invalid-feedback(data-sb-feedback='phone:required') A phone number is required.
+            .col-md-6
+              .form-group.form-group-textarea.mb-md-0
+                // Message input
+                textarea#message.form-control(placeholder='Your Message *' data-sb-validations='required')
+                .invalid-feedback(data-sb-feedback='message:required') A message is required.
+          // Submit success message
+          // 
+          // This is what your users will see when the form
+          // has successfully submitted
+          #submitSuccessMessage.d-none
+            .text-center.text-white.mb-3
+              .fw-bolder Form submission successful!
+              |                             To activate this form, sign up at
+              br
+              a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+          // Submit error message
+          // 
+          // This is what your users will see when there is
+          // an error submitting the form
+          #submitErrorMessage.d-none
+            .text-center.text-danger.mb-3 Error sending message!
+          // Submit Button
+          .text-center
+            button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
+    // Footer
+    footer.footer.py-4
       .container
-        .row.justify-content-center
-          .col-lg-8
-            .modal-body
-              // Project details
-              h2.text-uppercase Scalable Customer Success Playbooks
-              img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/4.jpg' alt='...')
-              p
-                | Develop customized playbooks and workflows that enable consistency in onboarding, engagement, and retention efforts across teams.
-              button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
-                i.fas.fa-xmark.me-1
-                |                                         Close
-// Portfolio item 5 modal popup
-#portfolioModal5.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
-  .modal-dialog
-    .modal-content
-      .close-modal(data-bs-dismiss='modal')
-        img(src='assets/img/close-icon.svg' alt='Close modal')
-      .container
-        .row.justify-content-center
-          .col-lg-8
-            .modal-body
-              // Project details
-              h2.text-uppercase Customer Health Scoring &amp; Metrics Design 
-              img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/5.jpg' alt='...')
-              p
-                | Implement a structured framework to measure customer satisfaction, engagement, and churn risks, providing actionable insights.
-              button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
-                i.fas.fa-xmark.me-1
-                |                                         Close
-// Portfolio item 6 modal popup
-#portfolioModal6.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
-  .modal-dialog
-    .modal-content
-      .close-modal(data-bs-dismiss='modal')
-        img(src='assets/img/close-icon.svg' alt='Close modal')
-      .container
-        .row.justify-content-center
-          .col-lg-8
-            .modal-body
-              // Project details
-              h2.text-uppercase Performance Dashboards &amp; Reporting
-              img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/6.jpg' alt='...')
-              p
-                | Build real-time dashboards and reporting systems that track essential customer success KPIs, helping teams make data-driven decisions.
-              button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
-                i.fas.fa-xmark.me-1
-                |                                         Close
-// Bootstrap core JS
-script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
-// Core theme JS
-script(src='js/scripts.js')
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-// * *                               SB Forms JS                               * *
-// * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
+        .row.align-items-center
+          .col-lg-4.text-lg-start Copyright 2025 &copy; Sunrise Success LLC
+          .col-lg-4.my-3.my-lg-0
+            a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Twitter')
+              i.fab.fa-twitter
+            a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='Facebook')
+              i.fab.fa-facebook-f
+            a.btn.btn-dark.btn-social.mx-2(href='#!' aria-label='LinkedIn')
+              i.fab.fa-linkedin-in
+          .col-lg-4.text-lg-end
+            a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
+            a.link-dark.text-decoration-none(href='#!') Terms of Use
+    // Portfolio Modals
+    // Portfolio item 1 modal popup
+    #portfolioModal1.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .close-modal(data-bs-dismiss='modal')
+            img(src='assets/img/close-icon.svg' alt='Close modal')
+          .container
+            .row.justify-content-center
+              .col-lg-8
+                .modal-body
+                  // Project details
+                  h2.text-uppercase Organizational Development &amp; Leadership Development
+                  p.item-intro.text-muted Empowering Teams, Elevating Leaders, Driving Success
+                  img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/1.jpeg' alt='...')
+                  p
+                    | Our expert coaches will guide you through the services below, empowering your team with the skills, strategies, and culture needed for lasting success
+                  ul.list-inline
+                    li
+                      b Leadership Development for High-Performing Teams
+                    li
+                      b Organizational Strategy &amp; Change Management
+                    li
+                      b Building a Culture of Excellence &amp; Accountability
+                    li
+                      b Cross-Functional Collaboration &amp; Alignment
+                  button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
+                    i.fas.fa-xmark.me-1
+                    |                                         Close
+    // Portfolio item 2 modal popup
+    #portfolioModal2.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .close-modal(data-bs-dismiss='modal')
+            img(src='assets/img/close-icon.svg' alt='Close modal')
+          .container
+            .row.justify-content-center
+              .col-lg-8
+                .modal-body
+                  // Project details
+                  h2.text-uppercase Customer Success Strategy &amp; Execution
+                  p.item-intro.text-muted Optimizing Customer Journeys for Growth and Retention
+                  img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/2.jpeg' alt='...')
+                  p
+                    | Our coaches leverage industry expertise and proven frameworks to develop leadership capabilities, craft strategic customer success plans, and optimize customer journeys. Through tailored playbooks, data-driven health scoring, and performance dashboards, we empower teams to drive retention, growth, and long-term success.
+                  ul.list-inline
+                    li
+                      b Leadership Development for Customer Success
+                    li
+                      b Strategic Customer Success Planning
+                    li
+                      b Customer Journey Mapping &amp; Optimization
+                    li
+                      b Scalable Customer Success Playbooks
+                    li
+                      b Customer Health Scoring &amp; Metrics Design
+                    li
+                      b Performance Dashboards &amp; Reporting
+                  button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
+                    i.fas.fa-xmark.me-1
+                    |                                         Close
+    // Portfolio item 3 modal popup
+    #portfolioModal3.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .close-modal(data-bs-dismiss='modal')
+            img(src='assets/img/close-icon.svg' alt='Close modal')
+          .container
+            .row.justify-content-center
+              .col-lg-8
+                .modal-body
+                  // Project details
+                  h2.text-uppercase 1:1 Coaching, Group Coaching, and Workshops 
+                  img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/3.jpeg' alt='...')
+                  p
+                    | We offer 1:1 coaching, group coaching, and workshops to ensure flexible and impactful learning experiences. Whether you prefer personalized guidance, collaborative group discussions, or interactive workshops, we tailor our approach to help you, and your organization succeed.
+                  button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
+                    i.fas.fa-xmark.me-1
+                    |                                         Close
+    // Portfolio item 4 modal popup
+    #portfolioModal4.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .close-modal(data-bs-dismiss='modal')
+            img(src='assets/img/close-icon.svg' alt='Close modal')
+          .container
+            .row.justify-content-center
+              .col-lg-8
+                .modal-body
+                  // Project details
+                  h2.text-uppercase Scalable Customer Success Playbooks
+                  img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/4.jpg' alt='...')
+                  p
+                    | Develop customized playbooks and workflows that enable consistency in onboarding, engagement, and retention efforts across teams.
+                  button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
+                    i.fas.fa-xmark.me-1
+                    |                                         Close
+    // Portfolio item 5 modal popup
+    #portfolioModal5.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .close-modal(data-bs-dismiss='modal')
+            img(src='assets/img/close-icon.svg' alt='Close modal')
+          .container
+            .row.justify-content-center
+              .col-lg-8
+                .modal-body
+                  // Project details
+                  h2.text-uppercase Customer Health Scoring &amp; Metrics Design 
+                  img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/5.jpg' alt='...')
+                  p
+                    | Implement a structured framework to measure customer satisfaction, engagement, and churn risks, providing actionable insights.
+                  button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
+                    i.fas.fa-xmark.me-1
+                    |                                         Close
+    // Portfolio item 6 modal popup
+    #portfolioModal6.portfolio-modal.modal.fade(tabindex='-1' role='dialog' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .close-modal(data-bs-dismiss='modal')
+            img(src='assets/img/close-icon.svg' alt='Close modal')
+          .container
+            .row.justify-content-center
+              .col-lg-8
+                .modal-body
+                  // Project details
+                  h2.text-uppercase Performance Dashboards &amp; Reporting
+                  img.img-fluid.d-block.mx-auto(src='assets/img/portfolio/6.jpg' alt='...')
+                  p
+                    | Build real-time dashboards and reporting systems that track essential customer success KPIs, helping teams make data-driven decisions.
+                  button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal' type='button')
+                    i.fas.fa-xmark.me-1
+                    |                                         Close
+    // Bootstrap core JS
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+    // Core theme JS
+    script(src='js/scripts.js')
+    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    // * *                               SB Forms JS                               * *
+    // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
+    // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+    script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
